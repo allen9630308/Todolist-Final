@@ -1,35 +1,34 @@
-# vue-final
+# Vue 3 TodoList (Vite)
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple Todo app with auth, route guards, and CRUD, built with Vue 3 + Vite and deployable to GitHub Pages.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Auth: Sign up / Sign in / Sign out (token in cookie)
 
-## Customize configuration
+Route guards with toasts (block / when not authed; redirect from /login & /register when authed)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Todos: list / add / delete / toggle completion
 
-## Project Setup
+Tabs: All / Active / Completed (client-side filter)
 
-```sh
+Remaining counter + empty state message
+
+Unified toast notifications (utils/toast.js)
+
+## Tech
+
+Vue 3, Vue Router (hash mode), Axios
+
+SweetAlert2 (used via Toast)
+
+Vite, gh-pages
+
+## Scripts
+```
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
+npm run deploy
 npm run lint
 ```
