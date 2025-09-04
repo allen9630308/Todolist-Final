@@ -5,6 +5,7 @@ A simple Todo app with auth, route guards, and CRUD, built with Vue 3 + Vite and
 https://allen9630308.github.io/Todolist-Final/
 
 
+
 ## Features
 
 Auth: Sign up / Sign in / Sign out (token in cookie)
@@ -18,11 +19,13 @@ Tabs: All / Active / Completed (client-side filter)
 Remaining counter + empty state message
 
 
+
 ## Tech
 
 Vue 3, Vue Router (hash mode), Axios
 
 Vite
+
 
 
 ## Scripts
