@@ -46,7 +46,7 @@ body {
 <script setup>
 import { useRouter, useRoute } from 'vue-router'
 import { computed } from 'vue'
-import { authApi, clearToken } from '@/utils/api' // 你現有的 api.js 出口
+import { authApi, clearToken } from '@/utils/api'
 
 const router = useRouter()
 const route = useRoute()
